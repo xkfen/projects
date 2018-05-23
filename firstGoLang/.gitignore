@@ -1,0 +1,8 @@
+.idea/
+build/_workspace/
+build/bin/
+
+docker/tmp
+bin/
+assets/uploads/*
+router/assets
