@@ -99,7 +99,7 @@ import (
  }
 
  // 步行路径规划
- func WalkHttpRequest(key, origin, destination string)(WalkResp, error){
+ func WalkPathPlanHttpRequest(key, origin, destination string)(WalkResp, error){
  	req := WalkReq{
  		Key:key,
  		Origin:origin,

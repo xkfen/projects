@@ -41,7 +41,7 @@ type Step struct {
 // 步行路径规划
 func WalkPathPlaningService(key, origin, destination string)(Path, error){
 	// 调用接口
-	resp, err := request.WalkHttpRequest(key, origin, destination)
+	resp, err := request.WalkPathPlanHttpRequest(key, origin, destination)
 	if err != nil {
 		logger.Error("err", "WalkPathPlaningService###步行路径规划接口出错", err.Error())
 		return Path{}, err
