@@ -18,4 +18,6 @@ const (
 	Driving = "http://restapi.amap.com/v3/direction/driving"
 	// 骑行路径规划
 	Bicycling = "http://restapi.amap.com/v4/direction/bicycling"
+	// 路径测量
+	DistanceMeasure = "http://restapi.amap.com/v3/distance"
 )
